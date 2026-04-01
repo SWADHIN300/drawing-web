@@ -1,0 +1,13 @@
+{
+    "extends": "@repo/typescript-config/base.json",
+    "include": ["src"],
+    "compilerOptions": {
+        "lib": ["ES2022"],
+        "outDir": "dist",
+        "rootDir": "src",
+        "composite": true,
+        "incremental": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": ["node"]
+    }
+}
